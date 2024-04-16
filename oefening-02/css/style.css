@@ -23,7 +23,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-  .kleur-paars {background-color:#A020F0 ;}
+  .col-xxl-4.purple-bg {background-color:#A020F0 ;}
   
 
   
