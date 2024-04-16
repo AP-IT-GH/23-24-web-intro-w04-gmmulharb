@@ -10,17 +10,21 @@
 
     <!-- TODO: koppel de eigen css uit `style.css` aan de HTML. -->
 
-    
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
-    <header class="m-3">
-      logo
-      <nav class="">menu</nav>
+    <header class="text-start m-3">logo<nav class="text-end">menu</nav>
     </header>
     <main>
-      <h1 class=""></h1>
-      <section class="">.container</section>
+      <h1 class="text-center">Containers & breakpoints</h1>
+      <section class="themed-container text-center">.container</section>
+      <section class="container-sm themed-container text-center">.container-sm &ge;576px</section>
+      <section class="container-md themed-container text-start">.container-md &ge; 768px</section>
+      <section class="container-lg themed-container text-start">.container-lg &ge;992px</section>
+      <section class="container-xl themed-container text-end">.container-xl &ge;1200px</section>
+      <section class="container-xxl themed-container text-end">.container-xxl &ge;400px</section>
+      <section class="container-fluid themed-container text-center">.container-fluid 100%</section>
     </main>
     <aside></aside>
     <footer></footer>
